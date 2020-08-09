@@ -101,7 +101,7 @@ def parseHSV(hsv_txt):
         print("enter integers mf")
         return
     
-    print(x)
+
     return x
 
 def saveAll():
@@ -114,7 +114,6 @@ def saveAll():
     x2 = int(cordx2.get())
     y2 = int(cordy2.get())
 
-    print(upper_clr, lower_clr, x1, x2, y1, y2)
 
 
 def optionsWindow():
@@ -332,4 +331,3 @@ options.grid(row=4, column=0, columnspan=2, padx=5, pady=5)
 
 root.mainloop()
 
-print(upper_clr, lower_clr)
